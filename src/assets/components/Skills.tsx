@@ -21,7 +21,7 @@ export default function Skills() {
       new Waypoint({
         element: skilsContent,
         offset: "80%",
-        handler: function (direction) {
+        handler: function () {
           let progress = select(".progress .progress-bar", true);
           progress.forEach((el: any) => {
             el.style.width = el.getAttribute("aria-valuenow") + "%";
@@ -71,13 +71,7 @@ export default function Skills() {
                 HTML <i className="val">100%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
 
@@ -86,13 +80,7 @@ export default function Skills() {
                 CSS <i className="val">90%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
 
@@ -101,13 +89,7 @@ export default function Skills() {
                 JavaScript <i className="val">75%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
           </div>
@@ -118,13 +100,7 @@ export default function Skills() {
                 PHP <i className="val">80%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
 
@@ -133,13 +109,7 @@ export default function Skills() {
                 WordPress/CMS <i className="val">90%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
 
@@ -148,13 +118,7 @@ export default function Skills() {
                 Photoshop <i className="val">55%</i>
               </span>
               <div className="progress-bar-wrap">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="55"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <div className="progress-bar" role="progressbar"></div>
               </div>
             </div>
           </div>

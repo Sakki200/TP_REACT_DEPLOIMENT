@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 
 export default function Portfolio() {
-  const url = "details";
-
   const select = (el: any, all = false) => {
     el = el.trim();
     if (all) {
@@ -37,7 +35,7 @@ export default function Portfolio() {
           "#portfolio-flters li",
           function (e: any) {
             e.preventDefault();
-            portfolioFilters.forEach(function (el) {
+            portfolioFilters.forEach(function (el: any) {
               el.classList.remove("filter-active");
             });
             this.classList.add("filter-active");

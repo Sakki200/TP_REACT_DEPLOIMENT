@@ -72,7 +72,6 @@ export default function Contact() {
                 <textarea
                   className="form-control"
                   name="message"
-                  rows="5"
                   placeholder="Message"
                   required
                 ></textarea>
